@@ -36,7 +36,7 @@ def print_spicy_foods(spicy_foods):
     pepe = "🌶"
     for food in spicy_foods:
         if "name" and "cuisine"and "heat_level" in food:
-            spicy_fin_food = f"{food["name"]} ({food["cuisine"]}) | Heat Level: {food["heat_level"]*pepe}"
+            spicy_fin_food = f"{food['name']} ({food['cuisine']}) | Heat Level: {food['heat_level'] * pepe}"
             print(spicy_fin_food)
     
     pass
